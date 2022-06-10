@@ -1,0 +1,480 @@
+Process of inserting an element in stack is called ____________
+a)Create               b)Push
+c)Evaluation         d)Pop
+b
+Process of removing an element from stack is called __________
+a)Create               b)Push
+c)Evaluation         d)Pop
+d
+In a stack, if a user tries to remove an element from an empty stack it is called _________
+a)Underflow         b)Empty collection
+c)Overflow           d)Garbage Collection
+a
+Pushing an element into stack already having five elements and stack size of 5, then stack becomes ___________
+a)Overflow           b)Crash
+c)Underflow         d)User flow
+a
+Entries in a stack are “ordered”. What is the meaning of this statement?
+a)A collection of stacks is sortable                        b)Stack entries may be compared with the ‘<‘ operation
+c)The entries are stored in a linked list                  d)There is a Sequential entry that is one by one
+d
+What is the value of the postfix expression 6 3 2 4 + – *?
+a)1                      b)40
+c)74                    d)-18
+d
+The postfix form of the expression (A+ B)*(C*D- E)*F / G is?
+a)AB+ CD*E – FG /**             b)AB + CD* E – F **G /
+c)AB + CD* E – *F *G /          d)AB + CDE * – * F *G /
+c
+The data structure required to check whether an expression contains a balanced parenthesis is?
+a)Stack                  b)Queue
+c)Array                  d)Tree
+a
+What data structure would you mostly likely see in non recursive implementation of a recursive algorithm?
+a)Linked List           b)Stack
+c)Queue                  d)Tree
+b
+The process of accessing data stored in a serial access memory is similar to manipulating data on a ________
+a)Heap                  b)Binary Tree
+c)Array                  d)Stack
+d
+The postfix form of A*B+C/D is?
+a)*AB/CD+             b)AB*CD/+
+c)A*BC+/D             d)ABCD+/*
+b
+Which data structure is needed to convert infix notation to postfix notation?
+a)Branch                 b)Tree
+c)Queue                 d)Stack
+d
+What is the result of the following operation?  Top (Push (S, X))
+a)X	           b)X+S
+c)S                      d)XS
+a
+The result of evaluating the postfix expression 5, 4, 6, +, *, 4, 9, 3, /, +, * is?
+a)600                  b)350
+c)650                  d)588
+b
+Convert the following infix expressions into its equivalent postfix expressions.  (A + B ⋀D)/(E – F)+G
+a)(A B D ⋀ + E F – / G +)             b)(A B D +⋀ E F – / G +)
+c)(A B D ⋀ + E F/- G +)                d)(A B D E F + ⋀ / – G +)
+a
+If the elements “A”, “B”, “C” and “D” are placed in a stack and are deleted one at a time, what is the order of removal?
+a)ABCD             b)DCBA
+c)DCAB             d)ABDC
+b
+The type of expression in which operator succeeds its operands is?
+a)Infix Expression             b)Prefix Expression
+c)Postfix Expression         d)Both Prefix and Postfix Expressions
+c
+Which of the following is not an inherent application of stack?
+a)Reversing a string             		b)Evaluation of postfix expression
+c)Implementation of recursion                   d)Job scheduling
+d
+The prefix form of A-B/ (C * D ^ E) is?
+a)-/*^ACBDE             b)-ABCD*^DE
+c)-A/B*C^DE             d)-A/BC*^DE
+c
+Which data structure is used for implementing recursion?
+a)Queue                b)Stack
+c)Array                  d)List
+b
+A linear collection of data elements where the linear node is given by means of pointer is called?
+a)Linked list             b)Node list
+c)Primitive list          d)Unordered list
+a
+In linked list each node contains a minimum of two fields. One field is data field to store the data second field is?
+a)Pointer to character             b)Pointer to integer
+c)Pointer to node                   d)Node
+c
+What would be the asymptotic time complexity to insert an element at the front of the linked list (head is known)?
+a)O(1)                    b)O(n)
+c)O(n2)                  d)O(n3)
+a
+What would be the asymptotic time complexity to find an element in the linked list?
+a)O(1)                    b)O(n)
+c)O(n2)                  d)O(n4)
+b
+What would be the asymptotic time complexity to insert an element at the second position in the linked list?
+a)O(1)                    b)O(n)
+c)O(n2)                  d)O(n3)
+a
+The concatenation of two lists can be performed in O(1) time. Which of the following variation of the linked list can be used?
+a)Singly linked list             	             b)Doubly linked list
+c)Circular doubly linked list                  d)Array implementation of list
+c
+What kind of linked list is best to answer questions like “What is the item at position n?”
+a)Singly linked list             	 b)Doubly linked list
+c)Circular linked list                  d)Array implementation of linked list
+d
+Linked lists are not suitable for the implementation of ___________
+a)Insertion sort             	   b)Radix sort
+c)Polynomial manipulation           d)Binary search
+d
+Linked list is considered as an example of ___________ type of memory allocation.
+a)Dynamic             b)Static
+c)Compile time      d)Heap
+a
+In Linked List implementation, a node carries information regarding ___________
+a)Data             	b)Link
+c)Data and Link        d)Node
+c
+Linked list data structure offers considerable saving in _____________
+a)Computational Time             			b)Space Utilization
+c)Space Utilization and Computational Time             d)Speed Utilization
+c
+Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity?
+a)Insertion Sort             b)Quick Sort
+c)Heap Sort                  d)Merge Sort
+d
+In the worst case, the number of comparisons needed to search a singly linked list of length n for a given element is?
+a)log 2 n             b)n⁄2
+c)log 2 n – 1       d)n
+d
+Given pointer to a node X in a singly linked list. Only one pointer is given, pointer to head node is not given, can we delete the node X from given linked list?
+a)Possible if X is not last node             		b)Possible if size of linked list is even
+c)Possible if size of linked list is odd                       d)Possible if X is not first node
+a
+You are given pointers to first and last nodes of a singly linked list, which of the following operations are dependent on the length of the linked list?
+a)Delete the first element            	 b)Insert a new element as a first element
+c)Delete the last element of the list            d)Add a new element at the end of the list
+c
+What would be the asymptotic time complexity to add a node at the end of singly linked list, if the pointer is initially pointing to the head of the list?
+a)O(1)                 b)O(n)
+c)θ(n)                  d)θ(1)
+c
+Which of the following is not a disadvantage to the usage of array?
+a)Fixed size             		b)There are chances of wastage of memory space if elements inserted in an array are lesser than the allocated size
+c)Insertion based on position    d)Accessing elements at specified positions
+d
+What is the time complexity of inserting at the end in dynamic arrays?
+a)O(1)                  b)O(n)
+c)O(logn)             d)Either O(1) or O(n)
+d
+What is the time complexity to count the number of elements in the linked list?
+a)O(1)                  b)O(n)
+c)O(logn)             d)O(n2)
+b
+Which of these is not an application of a linked list?
+a)To implement file systems             b)For separate chaining in hash-tables
+c)To implement non-binary trees       d)Random Access of elements
+d
+In how many ways can an object be passed to a function?
+a)1           	           b)2
+c)3                      d)4
+c
+If an object is passed by value _____________
+a)A new copy of object is created implicitly             b)The object itself is used
+c)Address of the object is passed                            d)A new object is created with new random values
+a
+Pass by address passes the address of object _________ and pass by reference passes the address of the object _________
+a)Explicitly, explicitly             b)Implicitly, implicitly
+c)Explicitly, Implicitly             d)Implicitly, explicitly
+c
+Constructor function is not called when an object is passed to a function, will its destructor be called when its copy is destroyed?
+a)Yes, depending on code             	b)Yes, must be called
+c)No, since no constructor was called       d)No, since same object gets used
+b
+When an object is returned by a function, a _______________ is automatically created to hold the return value.
+a)Temporary object             b)Virtual object
+c)New object                      d)Data member
+a
+How many objects can be returned at once?
+a)Only 1               b)Only 2
+c)Only 16             d)As many as required
+a
+How many objects can be passed to a function simultaneously?
+a)Only 1             	       b)Only an array
+c)Only 1 or an array         d)As many as required
+d
+Passing an object using copy constructor and pass by value are same.
+a) True
+b) False
+b
+Whenever an object is assigned to a variable or passed to a method ________________
+a)Actually the objects aren’t used            	        b)Actually only the objects are used
+c)Actually a pointer to an object is used           d)Actually copy of object is used
+a
+Can a super class object give reference to a subclass method?
+a)No, it is not possible             b)Maybe, it is possible
+c)No, it’s not possible              d)No, It’s not possible in few cases only
+a
+How many objects can be referenced from the same variables?
+a)One at a time             	b)Many at a time
+c)Many using array name           d)7 at max at same time
+a
+Invoking a method on a particular object is ____________ sending a message to that object.
+a)Different from             b)Same as
+c)Somewhat similar       d)Part of
+b
+Where is the memory allocated for the objects?
+a)HDD                 b)Cache
+c)RAM                 d)ROM
+c
+Which of the following function can be used for dynamic memory allocation of objects?
+a)malloc()             b)calloc()
+c)create()              d)malloc() and calloc()
+d
+Which among the following keyword can be used to free the allocated memory for an object?
+a)delete             		b)free
+c)either delete or free                d)only delete
+c
+Which function is called whenever an object goes out of scope?
+a)Destructor function             b)Constructor function
+c)Delete function                  d)Free function
+a
+Which operator can be used to check the size of an object?
+a)sizeof(objectName)             b)size(objectName)
+c)sizeofobject(objectName)   d)sizedobject(objectName)
+a
+The memory allocated for an object ____________________
+a)Can be only dynamic             b)Can be only static
+c)Can be static or dynamic       d)Can’t be done using dynamic functions
+c
+Which operator can be used to free the memory allocated for an object in C++?
+a)Free()                b)delete
+c)Unallocate        d)Collect
+b
+What is the type of elements of array of objects?
+a)Class                 b)Void
+c)String                d)Null
+a
+If there is an abstract method in a class then, ________________
+a)Class must be abstract class         b)Class may or may not be abstract class
+c)Class is generic                  	      d)Class must be public
+a
+Abstract classes can ____________________ instances.
+a)Never have             b)Always have
+c)Have array of          d)Have pointer of
+a
+We ___________________ to an abstract class.
+a)Can create pointers             		b)Can create references
+c)Can create pointers or references            d)Can’t create any reference, pointer or instance
+c
+Which among the following is an important use of abstract classes?
+a)Header files             b)Class Libraries
+c)Class definitions      d)Class inheritance
+b
+How many abstract classes can a single program contain?
+a)At most 1             b)At least 1
+c)At most 127         d)As many as required
+a
+Which is the most significant feature that arises by using template classes?
+a)Code readability             b)Ease in coding
+c)Code reusability              d)Modularity in code
+c
+Can typeid() function be used with the object of generic classes?
+a)Yes, only if default type is given             b)Yes, always
+c)No, generic data can’t be determined     d)No, never possible
+b
+The _____________ class is a specialization of a more general template class.
+a)String                 b)Integer
+c)Digit                  d)Math
+a
+How many generic types can be given inside a single template class?
+a)Only 1               b)Only 3
+c)Only 7               d)As many as required
+d
+Template classes must have at least one static member.
+a) True
+b) False
+b
+A base class is also known as _____________ class.
+a)Basic                 b)Inherited
+c)Super                d)Sub
+c
+An abstract class is always a __________ class.
+a)Basic                 b)Derived
+c)Template           d)Nested
+a
+How to make a derived class a base class?
+a)Change name of the class             b)Use keyword base
+c)Make a class derive from it           d)Can’t be done
+c
+ If a base class is being derived by two other classes, which inheritance will that be called?
+a)Single                b)Multiple
+c)Multi-level         d)Hierarchical
+d
+Which among the following must be in a base class?
+a)Data members             b)Member functions
+c)Access specifiers        d)Nothing
+d
+Which type of members can’t be accessed in derived classes of a base class?
+a)Protected             b)Private
+c)Public                  d)All can be accessed
+b
+If a class is enclosing more than one class, than it can be called as base class of those classes.
+a) True
+b) False
+b
+Base class have ________________ of abstraction.
+a)Higher degree             b)Lower degree
+c)Intermediate                d)Minimum degree
+b
+Always the base class constructors are called ___________ constructor of derived class.
+a)Before               b)After
+c)Along               d)According to priority of
+a
+If a base class is inherited from another class and then one class derives it, which inheritance is shown?
+a)Multiple             b)Single
+c)Hierarchical       d)Multi-level
+d
+Nodal analysis is generally used to determine______
+a)Voltage             b)Current
+c)Resistance        d)Power
+a
+Mesh analysis is generally used to determine_________
+a)Voltage             b)Current
+c)Resistance        d)Power
+b
+KVL is associated with____________
+a)Mesh analysis                b)Nodal analysis
+c)Both mesh and nodal     d)Neither mesh nor nodal
+a
+KCL is associated with_________
+a)Mesh analysis                b)Nodal analysis
+c)Both mesh and nodal     d)Neither mesh nor nodal
+b
+Mesh analysis employs the method of ___________
+a)KVL                                b)KCL
+c)Both KVL and KCL          d)Neither KVL nor KCL
+a
+Mesh analysis can be used for __________
+a)Planar circuits                                          b)Non-planar circuits
+c)Both planar and non-planar circuits          d)Neither planar nor non-planar circuits
+a
+Nodal analysis is generally used to determine_______
+a)Voltage             b)Current
+c)Resistance         d)Power
+a
+If there are 10 nodes in a circuit, how many equations do we get?
+a)10                     b)9
+c)8                       d)7
+b
+How many nodes are taken as reference nodes in a nodal analysis?
+a)1                       b)2
+c)3                       d)4
+a
+In superposition theorem, when we consider the effect of one voltage source, all the other voltage sources are ____________
+a)Shorted             b)Opened
+c)Removed          d)Undisturbed
+a
+In superposition theorem, when we consider the effect of one voltage source, all the other current sources are ____________
+a)Shorted             b)Opened
+c)Removed          d)Undisturbed
+b
+Superposition theorem is valid for _________
+a)Linear systems             		b)Non-linear systems
+c)Both linear and non-linear systems         d)Neither linear nor non-linear systems
+a
+Superposition theorem does not work for ________
+a)Current               b)Voltage
+c)Power                d)Works for all: current, voltage and power
+c
+The Thevenin voltage is the__________
+a)Open circuit voltage             		b)Short circuit voltage
+c)Open circuit and short circuit voltage     d)Neither open circuit nor short circuit voltage
+a
+Thevenin resistance is found by ________
+a)Shorting all voltage sources             			b)Opening all current sources
+c)Shorting all voltage sources and opening all current sources  d)Opening all voltage sources and shorting all current sources
+c
+Thevenin’s theorem is true for __________
+a)Linear networks             			b)Non-Linear networks
+c)Both linear networks and nonlinear networks          d)Neither linear networks nor non-linear networks
+a
+In Thevenin’s theorem Vth is __________
+a)Sum of two voltage sources            b)A single voltage source
+c)Infinite voltage sources                  d)0
+b
+Vth is found across the ____________ terminals of the network.
+a)Input             		b)Output
+c)Neither input nor output         d)Either input or output
+b
+Can we use Thevenin’s theorem on a circuit containing a BJT?
+a)Yes             		b)No
+c)Depends on the BJT                d)Insufficient data provided
+b
+Norton resistance is found by?
+a)Shorting all voltage sources             			b)Opening all current sources
+c)Shorting all voltage sources and opening all current sources  d)Opening all voltage sources and shorting all current sources
+c
+What is the relation between current and voltage in a capacitor?
+a)I=1/C*integral(Vdt)             b)I=CdV/dt
+c)I=1/CdV/dt                        d) I=Ct
+b
+If 2V is supplied to a 3F capacitor, calculate the charge stored in the capacitor.
+a)1.5C                b)6C
+c)2C                  d)3C
+b
+Calculate the current in the capacitor having 2V supply voltage and 3F capacitance in 2seconds.
+a)2A                    b)5A
+c)6A                    d)3A
+d
+A 4microF capacitor is charged to 120V, the charge in the capacitor would be?
+a)480C                b)480microC
+c)30C                  d)30microC
+b
+For high frequencies, capacitor acts as _________
+a)Open circuit             b)Short circuit
+c)Amplifier                  d)Rectifier
+b
+For very low frequencies, capacitor acts as ________
+a)Open circuit             b)Short circuit
+c)Amplifier                  d)Rectifier
+a
+A capacitor consists of_________
+a)Two conductors             b)Two semiconductors
+c)Two dielectrics              d)Two insulators
+a
+Capacitor preferred when there is high frequency in the circuits is __________
+a)Electrolyte capacitor      b)Mica capacitor
+c)Air capacitor                  d)Glass capacitor
+b
+Capacitance increases with ________
+a)Increase in plate area             		b)Decrease in plate area
+c)Increase in distance between the plates                 d)Increase in density of the material
+a
+Which among the following expressions relate charge, voltage and capacitance of a capacitor?
+a)Q=C/V               b)Q=V/C
+c)Q=CV                 d)C=Q2V
+c
+What is the voltage across a capacitor at the time of switching, that is, when t=0?
+a)Infinity             		b)0V
+c)Cannot be determined            d)1V
+b
+If one plate of a parallel plate capacitor is charged to positive charge the other plate is charged to?
+a)Positive             		b)Negative
+c)Positive or negative               d)Not charged
+b
+When the voltage across a capacitor increases, what happens to the charge stored in it?
+a)Increases             b)Decreases
+c)Becomes zero      d)Cannot be determined
+a
+What happens to the current flow in a fully charged capacitor?
+a)Current flow stops             			b)Current flow doubles
+c)Current flow becomes half its original value            d)Current flow becomes one-fourth its original value
+a
+Calculate the capacitance of a capacitor that stores 40microC of charge and has a voltage of 2V.
+a)20F                  b)20microF
+c)10F                  d)10microF
+b
+What happens to the capacitance when the voltage across the capacitor increases?
+a)Decreases             b)Increases
+c)Becomes 0            d)No effect
+d
+A power factor of a circuit can be improved by placing which, among the following, in a circuit?
+a)Inductor             b)Capacitor
+c)Resistor             d)Switch
+b
+When the supply frequency increases, what happens to the capacitive reactance in the circuit?
+a)Increases             	       b)Decreases
+c)Remains the same         d)Becomes zero
+b
+Capacitors charge and discharge in __________ manner.
+a)Linear                b)Constant
+c)Square               d)Exponential
+d
+Air has a dielectric constant of ___________
+a)Unity                  b)Zero
+c)Infinity                d)Hundred
+a
